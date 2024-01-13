@@ -1,0 +1,50 @@
+{% load static %}
+<!-- Features Section Start -->
+<section id="features" class="section-padding">
+  <div class="container">
+    <div class="section-header text-center">
+      <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nossos Recursos</h2>
+      <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <div class="content-left">
+          {% for f in features|slice:":3" %}
+            <div class="box-item wow fadeInLeft" data-wow-delay="">
+              <span class="icon">
+                <i class="{{ f.icone }}"></i>
+              </span>
+              <div class="text">
+                <h4>{{ f.recurso }}</h4>
+                <p>{{ f.descricao }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <div class="show-box wow fadeInUp" data-wow-delay="0.3s">
+          <img src="{% static 'img/feature/intro-mobile.png' %}" alt="">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+        <div class="content-right">
+          {% for f in features|slice:"3:" %}
+            <div class="box-item wow fadeInRight" data-wow-delay="">
+              <span class="icon">
+                <i class="{{ f.icone }}"></i>
+              </span>
+              <div class="text">
+                <h4>{{ f.recurso }}</h4>
+                <p>{{ f.descricao }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

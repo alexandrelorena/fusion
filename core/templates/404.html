@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content%}
+    <!-- Hero Area Start -->
+<div id="hero-area" class="hero-area-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+              <div class="contents">
+                <h3 class="head-title">404<br>Página não encontrada!!!</h3>
+                <p>Infelizmente a página que você procura não está disponível.</p>
+                <div class="header-button">
+                  <a href="{% url 'index'%}" class="btn btn-common">Voltar para a página principal</i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+              <div class="intro-img">
+                <img class="img-fluid" src="{% static 'img/intro-mobile.png' %}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Hero Area End -->
+{% endblock %}

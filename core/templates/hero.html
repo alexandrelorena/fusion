@@ -1,0 +1,34 @@
+{% load static %}
+<div id="hero-area" class="hero-area-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
+              <div class="contents">
+                <h3 class="head-title">Sua Empresa, no topo!!<br></h3>
+                <p>Fazemos mais por você!</p>
+                <div class="header-button">
+                  <a href="#" class="btn btn-common">Saiba mais</i></a>
+                  <a href="#" class="btn btn-border video-popup">Entre em contato</i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+              <div class="intro-img">
+                <img class="img-fluid" src="{% static 'img/intro-mobile.png' %}" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="container">
+      {% if messages %}
+        {% for m in messages %}
+          <div class="alert alert-{{ m.tags }}">
+            <button type="button" class="close" data-dismiss="alert"></button>
+            <strong>{{ m }}</strong>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+</header>
+<!-- Header Area wrapper End -->

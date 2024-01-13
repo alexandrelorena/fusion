@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <!-- Hero Area Start -->
+    {% include 'hero.html' %}
+    <!-- Hero Area End -->
+
+    <!-- Services Section End -->
+    {% include 'servicos.html' %}
+    <!-- Services Section End -->
+
+    <!-- About Section start -->
+    {% include 'sobre.html'%}
+    <!-- About Section End -->
+
+    <!-- Features Section Start -->
+    {%  include 'features.html'%}
+    <!-- Features Section End -->
+
+    <!-- Team Section Start -->
+    {%  include 'equipe.html'%}
+    <!-- Team Section End -->
+
+    <!-- Pricing section Start --> 
+    {% include 'precos.html'%}
+    <!-- Pricing Table Section End -->
+  
+    <!-- Testimonial Section Start -->
+    {% include 'clientes.html'%}
+    <!-- Testimonial Section End -->
+
+    <!-- Call To Action Section Start -->
+    {% include 'chamada.html' %}
+    <!-- Call To Action Section Start -->
+
+    <!-- Contact Section Start -->
+    {% include 'contato.html' %}
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    {% include 'footer.html'%}
+    <!-- Footer Section End -->
+    {% endblock %}
