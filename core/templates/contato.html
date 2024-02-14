@@ -1,8 +1,9 @@
+{% load i18n %}
 {% load static %}
     <section id="contact" class="section-padding bg-gray">
       <div class="container">
         <div class="section-header text-center">
-          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Contate-nos</h2>
+          <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">{% trans 'Entre em contato' %}</h2>
           <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
         </div>
         <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.3s">
@@ -13,29 +14,29 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required data-error="Digite o seu nome" autocomplete="off">
+                      <input type="text" class="form-control" id="nome" name="nome" placeholder="{% trans 'Nome' %}" required data-error="{% trans 'Digite o seu nome' %}" autocomplete="off">
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Email" id="email" class="form-control" name="email" required data-error="Digite o seu email" autocomplete="off">
+                      <input type="text" placeholder="{% trans 'Email' %}" id="email" class="form-control" name="email" required data-error="{% trans 'Digite o seu email' %}" autocomplete="off">
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                    <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" placeholder="Assunto" id="assunto" name="assunto" class="form-control" required data-error="Digite o assunto" autocomplete="off">
+                      <input type="text" placeholder="{% trans 'Assunto' %}" id="assunto" name="assunto" class="form-control" required data-error="{% trans 'Digite o assunto' %}" autocomplete="off">
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea class="form-control" id="mensagem" name="mensagem" placeholder="Mensagem" rows="7" data-error="Escreva a sua mensagem" autocomplete="off" required></textarea>
+                      <textarea class="form-control" id="mensagem" name="mensagem" placeholder="{% trans 'Mensagem' %}" rows="7" data-error="{% trans 'Escreva a sua mensagem' %}" autocomplete="off" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button text-left">
-                      <button class="btn btn-common" id="form-submit" type="submit">Enviar e-mail</button>
+                      <button class="btn btn-common" id="form-submit" type="submit">{% trans 'Enviar e-mail' %}</button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div>
                       <div class="clearfix"></div>
                     </div>

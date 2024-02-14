@@ -1,5 +1,6 @@
+{% load i18n %}
 {% load static %}
-
+<section id="about" class="section-padding bg-gray">
     <div class="about-area section-padding bg-gray">
       <div class="container">
         <div class="row">
@@ -7,14 +8,14 @@
             <div class="about-wrapper wow fadeInLeft" data-wow-delay="0.3s">
               <div>
                 <div class="site-heading">
-                  <p class="mb-3">Manage Statistics</p>
-                  <h2 class="section-title">Detailed Statistics of your Company</h2>
+                  <p class="mb-3">{% trans 'Gerenciamento de estatísticas' %}</p>
+                  <h2 class="section-title">{% trans 'Estatísticas detalhadas da sua empresa' %}</h2>
                 </div>
                 <div class="content">
                   <p>
-                    Praesent imperdiet, tellus et euismod euismod, risus lorem euismod erat, at finibus neque odio quis metus. Donec vulputate arcu quam. Morbi quis tincidunt ligula. Sed rutrum tincidunt pretium. Mauris auctor, purus a pulvinar fermentum, odio dui vehicula lorem, nec pharetra justo risus quis mi. Ut ac ex sagittis, viverra nisl vel, rhoncus odio.
+                    {% trans 'Na Fusion, acreditamos na inovação como catalisadora do sucesso empresarial. Nossa missão é transformar desafios em oportunidades, capacitando nossos clientes com soluções tecnológicas de ponta e serviços personalizados. Diferenciamos-nos pela inovação constante, compromisso com a qualidade e valores fundamentais de integridade, colaboração e inovação. Construímos parcerias duradouras, adaptando-nos às necessidades em constante evolução de nossos clientes. Bem-vindo à Fusion, onde a excelência e a inovação convergem para criar um futuro repleto de oportunidades.' %}
                   </p>
-                  <a href="#" class="btn btn-common mt-3">Read More</a>
+                  <a href="#" class="btn btn-common mt-3">{% trans 'Consulte mais informações' %}</a>
                 </div>
               </div>
             </div>
@@ -25,3 +26,4 @@
         </div>
       </div>
     </div>
+</section>

@@ -1,0 +1,460 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-15 22:48-0300\n"
+"PO-Revision-Date: 2024-01-15 22:50-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: core/forms.py:7 core/forms.py:18 core/models.py:56
+#: core/templates/contato.html:17
+msgid "Nome"
+msgstr "Name"
+
+#: core/forms.py:8 core/forms.py:19
+msgid "E-mail"
+msgstr "Email"
+
+#: core/forms.py:9 core/forms.py:20 core/templates/contato.html:29
+msgid "Assunto"
+msgstr "Subject"
+
+#: core/forms.py:10 core/forms.py:21 core/templates/contato.html:35
+msgid "Mensagem"
+msgstr "Message"
+
+#: core/models.py:15
+msgid "Criação"
+msgstr "Creation"
+
+#: core/models.py:16
+msgid "Atualização"
+msgstr "Update"
+
+#: core/models.py:17
+msgid "Ativo?"
+msgstr "Enabled?"
+
+#: core/models.py:25 core/models.py:85
+msgid "Engrenagem"
+msgstr "Gear"
+
+#: core/models.py:26
+msgid "Grafico"
+msgstr "Graphic"
+
+#: core/models.py:27
+msgid "Usuários"
+msgstr "Users"
+
+#: core/models.py:28 core/models.py:86
+msgid "Design"
+msgstr "Design"
+
+#: core/models.py:29
+msgid "Mobile"
+msgstr "Mobile"
+
+#: core/models.py:30 core/models.py:83
+msgid "Foguete"
+msgstr "Rocket"
+
+#: core/models.py:32 core/models.py:37
+msgid "Serviço"
+msgstr "Service"
+
+#: core/models.py:33
+msgid "Descrição"
+msgstr "Description"
+
+#: core/models.py:34
+msgid "Icone"
+msgstr "Icon"
+
+#: core/models.py:38
+msgid "Serviços"
+msgstr "Services"
+
+#: core/models.py:45 core/models.py:48 core/models.py:57
+msgid "Cargo"
+msgstr "Position"
+
+#: core/models.py:49
+msgid "Cargos"
+msgstr "Positions"
+
+#: core/models.py:58
+msgid "Bio"
+msgstr "Bio"
+
+#: core/models.py:60
+msgid "Imagem"
+msgstr "Image"
+
+#: core/models.py:74
+msgid "Funcionário"
+msgstr "Employee"
+
+#: core/models.py:75
+msgid "Funcionários"
+msgstr "Employees"
+
+#: core/models.py:84
+msgid "Laptop"
+msgstr "Laptop"
+
+#: core/models.py:87
+msgid "Cores"
+msgstr "Colors"
+
+#: core/models.py:89 core/models.py:94
+msgid "Recurso"
+msgstr "Resource"
+
+#: core/models.py:90
+#, fuzzy
+#| msgid "Descrição"
+msgid "Descrição"
+msgstr "Description"
+
+#: core/models.py:91
+#, fuzzy
+#| msgid "Icone"
+msgid "Ícone"
+msgstr "Icon"
+
+#: core/models.py:95 core/templates/base.html:54 core/templates/footer.html:32
+msgid "Recursos"
+msgstr "Resources"
+
+#: core/templates/404.html:11
+msgid "Página não encontrada!!!"
+msgstr "Page not found!!!"
+
+#: core/templates/404.html:12
+msgid "Infelizmente a página que você procura não está disponível."
+msgstr "Unfortunately the page you are looking for is not available."
+
+#: core/templates/404.html:14 core/templates/500.html:14
+msgid "Voltar para a página principal"
+msgstr "Return to main page"
+
+#: core/templates/500.html:11
+msgid "Erro de processamento"
+msgstr "Processing error"
+
+#: core/templates/500.html:12
+msgid "Infelizmente não foi possível processar a requisição!"
+msgstr "Unfortunately, the request could not be processed!"
+
+#: core/templates/base.html:44
+msgid "Inicio"
+msgstr "Start"
+
+#: core/templates/base.html:49
+msgid "Serviços"
+msgstr "Services"
+
+#: core/templates/base.html:59
+msgid "Equipe"
+msgstr "Team"
+
+#: core/templates/base.html:64 core/templates/precos.html:6
+msgid "Preços"
+msgstr "Pricing"
+
+#: core/templates/base.html:69
+msgid "Clientes"
+msgstr "Clients"
+
+#: core/templates/base.html:74 core/templates/footer.html:42
+msgid "Contato"
+msgstr "Contact"
+
+#: core/templates/base.html:79
+msgid "Sobre"
+msgstr "About"
+
+#: core/templates/chamada.html:8
+msgid "Ainda não é cadastrado com a gente?"
+msgstr "Not registered with us yet?"
+
+#: core/templates/chamada.html:9
+msgid "Clique ao lado para se cadastrar!"
+msgstr "Click below to register!"
+
+#: core/templates/chamada.html:13
+msgid "Registre-se aqui!"
+msgstr "Register here!"
+
+#: core/templates/clientes.html:18
+msgid ""
+"\"A Fusion superou todas as minhas expectativas! A qualidade dos produtos, o "
+"atendimento excepcional e a eficiência nas entregas fizeram com que eu me "
+"tornasse um cliente fiel. Recomendo a todos que buscam excelência.\""
+msgstr ""
+"\"Fusion exceeded all my expectations! The quality of the products, the "
+"exceptional service and the efficiency in deliveries made me a loyal "
+"customer. I recommend it to everyone who seeks excellence.\""
+
+#: core/templates/clientes.html:39
+msgid ""
+"\"A Fusion é líder em inovação no setor de soluções empresariais. Seus "
+"produtos e serviços são sempre atualizados, proporcionando às empresas as "
+"ferramentas necessárias para se destacarem no mercado.\""
+msgstr ""
+"\"Fusion is a leader in innovation in the business solutions sector. Its "
+"products and services are always updated, providing companies with the tools "
+"they need to stand out in the market.\""
+
+#: core/templates/clientes.html:60
+msgid ""
+"\"A Fusion é uma empresa que verdadeiramente se preocupa com a qualidade. "
+"Seus produtos são robustos, confiáveis e sempre atendem às nossas "
+"necessidades. É bom saber que podemos contar esta empresa.\""
+msgstr ""
+"\"Fusion is a company that truly cares about quality. Their products are "
+"robust, reliable and always meet our needs. It's good to know we can count "
+"on this company.\""
+
+#: core/templates/clientes.html:78
+msgid "Developer"
+msgstr "Developer"
+
+#: core/templates/clientes.html:81
+msgid ""
+"\"Desde que iniciamos nossa parceria com a Fusion, nossa empresa "
+"experimentou um crescimento notável. A dedicação e as soluções "
+"personalizadas tornaram a Fusion uma parte fundamental de nossa estratégia "
+"de negócios.\""
+msgstr ""
+"\"Since we began our partnership with Fusion, our company has experienced "
+"remarkable growth. Their dedication and customized solutions have made "
+"Fusion a key part of our business strategy.\""
+
+#: core/templates/contato.html:6 core/templates/hero.html:12
+msgid "Entre em contato"
+msgstr "Contact"
+
+#: core/templates/contato.html:17
+msgid "Digite o seu nome"
+msgstr "Enter your name"
+
+#: core/templates/contato.html:23
+#, fuzzy
+#| msgid "E-mail"
+msgid "Email"
+msgstr "Email"
+
+#: core/templates/contato.html:23
+msgid "Digite o seu email"
+msgstr "Enter your email"
+
+#: core/templates/contato.html:29
+msgid "Digite o assunto"
+msgstr "Enter the subject"
+
+#: core/templates/contato.html:35
+msgid "Escreva a sua mensagem"
+msgstr "Write your message"
+
+#: core/templates/contato.html:39
+msgid "Enviar e-mail"
+msgstr "Send email"
+
+#: core/templates/equipe.html:6
+msgid "Conheça nossa Equipe"
+msgstr "Meet our Team"
+
+#: core/templates/features.html:7
+msgid "Nossos Recursos"
+msgstr "Our Resources"
+
+#: core/templates/features.html:54 core/templates/features.html:57
+#, python-format
+msgid "Custom message with %(feature.recurso)s text inside "
+msgstr ""
+
+#: core/templates/footer.html:11
+msgid "Transformando Desafios em Oportunidades"
+msgstr "Turning Challenges into Opportunities"
+
+#: core/templates/footer.html:22
+msgid "Produtos"
+msgstr "Products"
+
+#: core/templates/footer.html:24
+msgid "Monitoramento"
+msgstr "Monitoring"
+
+#: core/templates/footer.html:25
+msgid "Aplicação"
+msgstr "Aplication"
+
+#: core/templates/footer.html:26
+msgid "Planejamento de recursos"
+msgstr "Resource planning"
+
+#: core/templates/footer.html:27
+msgid "Empreendimento"
+msgstr "Enterprise"
+
+#: core/templates/footer.html:28
+msgid "Gestão de Funcionários"
+msgstr "Employee Management"
+
+#: core/templates/footer.html:34
+msgid "Opções de pagamento"
+msgstr "Payment options"
+
+#: core/templates/footer.html:35
+msgid "Tabela de taxas"
+msgstr "Fee table"
+
+#: core/templates/footer.html:36
+msgid "Começando"
+msgstr "Starting"
+
+#: core/templates/footer.html:37
+msgid "Verificação de Identidade"
+msgstr "Identity Verification"
+
+#: core/templates/footer.html:38
+msgid "Cartao de verificacao"
+msgstr "Verification card"
+
+#: core/templates/footer.html:63
+msgid "Todos os direitos reservados"
+msgstr "All rights reserved"
+
+#: core/templates/hero.html:8
+msgid "Sua Empresa, no topo!!"
+msgstr "Your Company, at the top!!"
+
+#: core/templates/hero.html:9
+msgid "Fazemos mais por você!"
+msgstr "We do more for you!"
+
+#: core/templates/hero.html:11
+msgid "Saiba mais"
+msgstr "Know more"
+
+#: core/templates/precos.html:16 core/templates/precos.html:36
+#: core/templates/precos.html:56
+msgid "/mês"
+msgstr ""
+
+#: core/templates/precos.html:19
+msgid "Pro"
+msgstr ""
+
+#: core/templates/precos.html:22
+msgid "1 user"
+msgstr ""
+
+#: core/templates/precos.html:23
+msgid "10 GB storage"
+msgstr ""
+
+#: core/templates/precos.html:24
+msgid "Email support"
+msgstr "Email support"
+
+#: core/templates/precos.html:25 core/templates/precos.html:45
+#: core/templates/precos.html:65
+msgid "Lifetime updates"
+msgstr ""
+
+#: core/templates/precos.html:27 core/templates/precos.html:47
+#: core/templates/precos.html:67
+msgid "Compre agora"
+msgstr "Buy now"
+
+#: core/templates/precos.html:39
+msgid "Plus"
+msgstr ""
+
+#: core/templates/precos.html:42
+msgid "10 user"
+msgstr ""
+
+#: core/templates/precos.html:43
+msgid "30 GB storage"
+msgstr ""
+
+#: core/templates/precos.html:44
+msgid "Priority email support"
+msgstr ""
+
+#: core/templates/precos.html:59
+msgid "Premium"
+msgstr ""
+
+#: core/templates/precos.html:62
+msgid "Unlimited users"
+msgstr ""
+
+#: core/templates/precos.html:63
+msgid "Unlimited storage"
+msgstr ""
+
+#: core/templates/precos.html:64
+msgid "24/7 support"
+msgstr ""
+
+#: core/templates/servicos.html:7
+msgid "Nossos Serviços"
+msgstr "Our services"
+
+#: core/templates/sobre.html:11
+msgid "Gerenciamento de estatísticas"
+msgstr "Statistics management"
+
+#: core/templates/sobre.html:12
+msgid "Estatísticas detalhadas da sua empresa"
+msgstr "Detailed statistics for your company"
+
+#: core/templates/sobre.html:16
+msgid ""
+"Na Fusion, acreditamos na inovação como catalisadora do sucesso empresarial. "
+"Nossa missão é transformar desafios em oportunidades, capacitando nossos "
+"clientes com soluções tecnológicas de ponta e serviços personalizados. "
+"Diferenciamos-nos pela inovação constante, compromisso com a qualidade e "
+"valores fundamentais de integridade, colaboração e inovação. Construímos "
+"parcerias duradouras, adaptando-nos às necessidades em constante evolução de "
+"nossos clientes. Bem-vindo à Fusion, onde a excelência e a inovação "
+"convergem para criar um futuro repleto de oportunidades."
+msgstr ""
+"At Fusion, we believe in innovation as a catalyst for business success. Our "
+"mission is to transform challenges into opportunities by empowering our "
+"clients with cutting-edge technological solutions and personalized services. "
+"We differentiate ourselves through constant innovation, commitment to "
+"quality and fundamental values of integrity, collaboration and innovation. "
+"We build lasting partnerships by adapting to the constantly evolving needs "
+"of our customers. Welcome to Fusion, where excellence and innovation "
+"converge to create a future full of opportunities."
+
+#: core/templates/sobre.html:18
+msgid "Consulte mais informações"
+msgstr "See more information"
+
+#: core/views.py:44
+msgid "E-mail enviado com sucesso"
+msgstr "Email successfully sent"
+
+#: core/views.py:48
+msgid "Erro ao enviar e-mail"
+msgstr "Error sending email"

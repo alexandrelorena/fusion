@@ -1,50 +1,60 @@
+{% load i18n custom_filters %}
 {% load static %}
 <!-- Features Section Start -->
 <section id="features" class="section-padding">
-  <div class="container">
-    <div class="section-header text-center">
-      <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">Nossos Recursos</h2>
-      <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
-    </div>
+    <div class="container">
+        <div class="section-header text-center">
+            <h2 class="section-title wow fadeInDown" data-wow-delay="0.3s">{% trans 'Nossos Recursos' %}</h2>
+            <div class="shape wow fadeInDown" data-wow-delay="0.3s"></div>
+        </div>
 
-    <div class="row">
-      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-        <div class="content-left">
-          {% for f in features|slice:":3" %}
-            <div class="box-item wow fadeInLeft" data-wow-delay="">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="content-left">
+                    {% for feature in features|slice:":3" %}
+                    <div class="box-item wow fadeInLeft" data-wow-delay="">
               <span class="icon">
-                <i class="{{ f.icone }}"></i>
+                <i class="{{ feature.icone }}"></i>
               </span>
-              <div class="text">
-                <h4>{{ f.recurso }}</h4>
-                <p>{{ f.descricao }}</p>
-              </div>
+                        <div class="text">
+                            <h4>{{ feature.recurso|template_trans }}</h4>
+                            <p>{{ feature.descricao|template_trans }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
-          {% endfor %}
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-        <div class="show-box wow fadeInUp" data-wow-delay="0.3s">
-          <img src="{% static 'img/feature/intro-mobile.png' %}" alt="">
-        </div>
-      </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="show-box wow fadeInUp" data-wow-delay="0.3s">
+                    <img src="{% static 'img/feature/intro-mobile.png' %}" alt="">
+                </div>
+            </div>
 
-      <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
-        <div class="content-right">
-          {% for f in features|slice:"3:" %}
-            <div class="box-item wow fadeInRight" data-wow-delay="">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <div class="content-right">
+                    {% for feature in features|slice:"3:" %}
+                    <div class="box-item wow fadeInRight" data-wow-delay="">
               <span class="icon">
-                <i class="{{ f.icone }}"></i>
+                <i class="{{ feature.icone }}"></i>
               </span>
-              <div class="text">
-                <h4>{{ f.recurso }}</h4>
-                <p>{{ f.descricao }}</p>
-              </div>
+                        <div class="text">
+                            <h4>{% trans feature.recurso %}</h4>
+                            <p>{% trans feature.descricao %}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
-          {% endfor %}
         </div>
-      </div>
+        <!-- Adicionando bloco de depuração -->
+        <!--  <div>-->
+        <!--    <h3>Debug:</h3>-->
+        <!--    {% for feature in features|slice:":3" %}-->
+        <!--      <pre>{% blocktrans with feature.recurso|template_trans as feature.recurso %}Custom message with {{ feature.recurso }} text inside {% endblocktrans %}</pre>-->
+        <!--      <pre>{{ feature.descricao }}</pre>-->
+        <!--    {% endfor %}-->
+        <!--    <p>{% trans 'pt-br|Língua em que traduzir | linguagem de que traduzir' %}</p>-->
+        <!--  </div>-->
     </div>
-  </div>
 </section>

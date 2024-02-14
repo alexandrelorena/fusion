@@ -1,3 +1,4 @@
+{% load i18n %}
 {% load static %}
     <section id="testimonial" class="testimonial section-padding">
       <div class="container">
@@ -14,7 +15,7 @@
                     <h3><a href="#">Creative Head</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis nec, tincidunt ligula.</p>
+                    <p class="description">{% trans '"A Fusion superou todas as minhas expectativas! A qualidade dos produtos, o atendimento excepcional e a eficiência nas entregas fizeram com que eu me tornasse um cliente fiel. Recomendo a todos que buscam excelência."' %}</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
@@ -31,11 +32,11 @@
                     <img src="{% static 'img/testimonial/img2.jpg' %}" alt="">
                   </div>
                   <div class="info">
-                    <h2><a href="#">Domeni GEsson</a></h2>
+                    <h2><a href="#">Domeni Gesson</a></h2>
                     <h3><a href="#">Awesome Technology co.</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis nec, tincidunt ligula.</p>
+                    <p class="description">{% trans '"A Fusion é líder em inovação no setor de soluções empresariais. Seus produtos e serviços são sempre atualizados, proporcionando às empresas as ferramentas necessárias para se destacarem no mercado."' %}</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
@@ -56,7 +57,7 @@
                     <h3><a href="#">Nesnal Design co.</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis nec, tincidunt ligula.</p>
+                    <p class="description">{% trans '"A Fusion é uma empresa que verdadeiramente se preocupa com a qualidade. Seus produtos são robustos, confiáveis e sempre atendem às nossas necessidades. É bom saber que podemos contar esta empresa."' %}</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>
@@ -74,10 +75,10 @@
                   </div>
                   <div class="info">
                     <h2><a href="#">Fernanda Anaya</a></h2>
-                    <h3><a href="#">Developer</a></h3>
+                    <h3><a href="#">{% trans 'Developer' %}</a></h3>
                   </div>
                   <div class="content">
-                    <p class="description">Praesent cursus nulla non arcu tempor, ut egestas elit tempus. In ac ex fermentum, gravida felis nec, tincidunt ligula.</p>
+                    <p class="description">{% trans '"Desde que iniciamos nossa parceria com a Fusion, nossa empresa experimentou um crescimento notável. A dedicação e as soluções personalizadas tornaram a Fusion uma parte fundamental de nossa estratégia de negócios."' %}</p>
                     <div class="star-icon mt-3">
                       <span><i class="lni-star-filled"></i></span>
                       <span><i class="lni-star-filled"></i></span>

@@ -1,14 +1,15 @@
+{% load i18n %}
 {% load static %}
 <div id="hero-area" class="hero-area-bg">
         <div class="container">
           <div class="row">
             <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
               <div class="contents">
-                <h3 class="head-title">Sua Empresa, no topo!!<br></h3>
-                <p>Fazemos mais por você!</p>
+                <h3 class="head-title">{% trans 'Sua Empresa, no topo!!' %}<br></h3>
+                <p><h5>{% trans 'Fazemos mais por você!' %}</h5></p>
                 <div class="header-button">
-                  <a href="#" class="btn btn-common">Saiba mais</i></a>
-                  <a href="#" class="btn btn-border video-popup">Entre em contato</i></a>
+                  <a href="#about" class="btn btn-common">{% trans 'Saiba mais' %}</i></a>
+                  <a href="#contact" class="btn btn-border video-popup">{% trans 'Entre em contato' %}</i></a>
                 </div>
               </div>
             </div>
