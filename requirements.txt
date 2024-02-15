@@ -2,7 +2,7 @@ asgiref==3.7.2
 coverage==7.4.0
 dj-database-url==2.1.0
 dj-static==0.0.6
-Django==5.0.1
+Django==3.2.8
 django-adminlte2==0.4.3
 django-modeltranslation==0.18.11
 django-pictures==1.1.3
