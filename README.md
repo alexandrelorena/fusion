@@ -1,5 +1,5 @@
 
-#### <span style="color:gray;">[Course](https://www.udemy.com/course/curso-de-programacao-em-python-do-basico-ao-avancado/) taken on the [Udemy](https://www.udemy.com/) platform with the [geek university ](https://geekuniversity.com.br/)  [<img src="media/favicon2.ico" width = 12 heigh = 12 alt="Ícone do curso"> ](https://geekuniversity.com.br/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Click here](https://alexandrelorena.github.io/index.html) to access my online resume.
+#### <span style="color:gray;">[Course](https://www.udemy.com/course/curso-de-programacao-em-python-do-basico-ao-avancado/) taken on the [Udemy](https://www.udemy.com/) platform with the [geek university ](https://geekuniversity.com.br/)  [<img src="media/favicon2.ico" width = 12 heigh = 12 alt="Ícone do curso"> ](https://geekuniversity.com.br/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> [Click here](https://alexandrelorena.github.io/index.html) to access my online resume.
 
 
 >### Course "Programação Web com Python e Django Framework Essencial"
