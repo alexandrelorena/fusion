@@ -23,13 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+"""SECRET_KEY = os.environ.get('SECRET_KEY')"""
+SECRET_KEY = 'django-insecure-&yw$vi0g#v&%ulqt+&)adz)4@)m^r5kx)yum_l^w2!!2#h6*+f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
 ALLOWED_HOSTS = ['*', '192.168.15.8']
-
 
 # Application definition
 
@@ -109,7 +109,7 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-"""DATABASES = {
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'fusion',
@@ -119,13 +119,13 @@ WSGI_APPLICATION = 'fusion.wsgi.application'
         'PORT': '5432',
     }
 }
-"""
 
 
-DATABASES = {
+
+"""DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'), conn_max_age=600),
 }
-
+"""
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 

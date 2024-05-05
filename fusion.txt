@@ -1,0 +1,20 @@
+DATABASE_PRIVATE_URL
+postgresql://postgres:aabfd2f*DAGag2bGFCf6GaFAe-G-3d51@postgres.railway.internal:5432/railway
+
+DATABASE_URL
+postgresql://postgres:aabfd2f*DAGag2bGFCf6GaFAe-G-3d51@viaduct.proxy.rlwy.net:38846/railway
+
+
+'django-insecure-h*6gabw)^)84xi38r6ei^^x_7y0b-kghyzb58q$n+bh$(9zbjg'
+
+
+DATABASES = {
+    'default': {
+    #     'ENGINE': 'django.db.backends.postgresql',
+    #     'NAME': 'fusion',
+    #     'USER': 'alexandre',
+    #     'PASSWORD': 'alexloo2357',
+    #     'HOST': '192.168.15.8',
+    #     'PORT': '5432',
+    # }
+}
